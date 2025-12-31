@@ -1,0 +1,24 @@
+//Adicionar o repositorio remoto
+git remote add origin 
+
+*//Deconectar o repositirio remoto
+git remote rm origin
+
+//Iniciar o repositirio 
+git init
+
+*//adicionar todos os arquivos na trak word 
+git add .
+
+//Fazer um commit no repositirio local
+git commit -m ""
+
+//Enviar um commit ao repositirio remoto
+git push -u origin master
+
+//Criar uma branch 
+git branch 'novo'
+
+*//Deletar um branch 
+git branch --delete 'novo'
+
