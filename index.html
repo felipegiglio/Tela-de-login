@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tela de Login</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+rel='stylesheet'> 
+
 </head>
 <body>
-    <h1>Tela de Login</h1>
+    <main class="container">
+        <form action="get">
+            <h1>Login do Felipe</h1>
+            <div class="input-box">
+                <input type="email" placeholder="Usuario">
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Senha">
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <div class="remember-forget">
+                <label for="">
+                    <input type="checkbox">
+                    Lembrar minha senha
+                </label>
+                <a href="#">Esqueci minha senha</a>
+            </div>
+            <button type="submit">Login</button>
+            <div class="register-link">
+                <p>Não tem uma conta ? <a href="#"></a></p>
+            </div>
+        </form>
+    </main>
 </body>
 </html>
