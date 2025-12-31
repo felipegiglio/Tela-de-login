@@ -21,3 +21,6 @@ git branch 'novo'
 
 *//Deletar um branch 
 git branch --delete 'novo'
+
+//Quando da erro de Iniciar um branch local e não ter o historico 
+git pull origin main --allow-unrelated-histories
