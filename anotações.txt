@@ -7,7 +7,7 @@ git remote rm origin
 //Iniciar o repositirio 
 git init
 
-*//adicionar todos os arquivos na trak word 
+*//adicionar todos os arquivos na working tree
 git add .
 
 //Fazer um commit no repositirio local
