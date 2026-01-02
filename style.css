@@ -60,3 +60,11 @@ body{
   color: #fff;
   padding: 20px 45px 20px 20px;
 }
+.input-box input::placeholder{
+  color: #c5c5c5;
+}
+.input-box i{
+  position: relative;
+  right: 20px;
+  font-size: 20px;
+}
